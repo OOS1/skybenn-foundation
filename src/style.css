@@ -94,6 +94,27 @@ section {
     box-shadow: 0 2px 4px rgba(0,0,0,0.04);
 }
 
+/* DONATION AMOUNT BUTTONS - ACTIVE STATE */
+.donation-amount-btn.active {
+  background-color: var(--primary) !important;
+  color: white !important;
+  border-color: var(--primary) !important;
+  font-weight: bold;
+}
+
+.donation-amount-btn {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.donation-amount-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation-amount-btn:active {
+  transform: translateY(0);
+}
 /* Footer Styles */
 footer {
     background-color: var(--dark-ink);
