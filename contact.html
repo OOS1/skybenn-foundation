@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Skybenn Foundation</title>
+    <meta name="description" content="Get in touch with Skybenn Foundation. Contact us for program inquiries, volunteer opportunities, or general questions.">
+    
+    <!-- Favicon: Small icon shown in browser tab -->
+    <link rel="icon" type="image/x-icon" href="/skybenn-foundation/favicon.ico">
+  <script type="module" crossorigin src="/skybenn-foundation/assets/main-99zm4RUm.js"></script>
+  <link rel="stylesheet" crossorigin href="/skybenn-foundation/assets/main-CSvZgRV_.css">
+</head>
+<body>
+
+    <!-- NAVBAR SECTION -->
+    <!-- navbar: Bootstrap component for navigation bars -->
+    <!-- navbar-expand-lg: Navigation links collapse into hamburger menu on screens smaller than 'large' -->
+    <!-- navbar-light: Uses dark text/icons on light background -->
+    <!-- bg-white: Bootstrap utility - sets background color to white -->
+    <!-- sticky-top: Navbar stays visible at top when scrolling -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        
+        <!-- container: Bootstrap class that centers content and adds responsive padding -->
+        <div class="container">
+            
+            <!-- Logo and Brand Name -->
+            <!-- navbar-brand: Bootstrap class for branding (logo/company name) -->
+            <!-- fw-bold: Bootstrap utility - font-weight: bold -->
+            <!-- d-flex: Bootstrap utility - display: flex (flexbox layout) -->
+            <!-- align-items-center: Bootstrap utility - vertically centers flex items -->
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html" style="color: var(--primary);">
+                <!-- height="40": Sets logo height to 40px -->
+                <!-- me-2: Bootstrap spacing utility - margin-end (right) = 0.5rem (8px) -->
+                <img src="/skybenn-foundation/favicon.png" alt="Skybenn Foundation Logo" height="40" class="me-2">
+                Skybenn Foundation
+            </a>
+            
+            <!-- Mobile Hamburger Menu Button -->
+            <!-- navbar-toggler: Bootstrap class for mobile menu toggle button -->
+            <!-- data-bs-toggle="collapse": Bootstrap JS - tells it to toggle collapse on click -->
+            <!-- data-bs-target="#navbarNav": Bootstrap JS - targets element with id="navbarNav" -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <!-- navbar-toggler-icon: Bootstrap - creates the hamburger icon (three lines) -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <!-- collapse: Bootstrap - hides content by default on mobile -->
+            <!-- navbar-collapse: Bootstrap - special collapse behavior for navbars -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- navbar-nav: Bootstrap - flex container for nav items -->
+                <!-- ms-auto: Bootstrap spacing utility - margin-start (left) = auto (pushes items to right) -->
+                <!-- align-items-center: Bootstrap utility - vertically centers items -->
+                <ul class="navbar-nav ms-auto align-items-center">
+                    
+                    <!-- nav-item: Bootstrap - wrapper for each navigation link -->
+                    <li class="nav-item">
+                        <!-- nav-link: Bootstrap - styles links in navbar (padding, hover effects) -->
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- active: Bootstrap - highlights current page -->
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    
+                    <!-- ms-lg-3: Bootstrap spacing - margin-start = 1rem (16px) on large screens and up -->
+                    <li class="nav-item ms-lg-3">
+                        <!-- btn: Bootstrap - base button styles -->
+                        <!-- btn-primary: Bootstrap - primary color button (uses --primary color) -->
+                        <!-- btn-sm: Bootstrap - small button size -->
+                        <a class="btn btn-primary btn-sm" href="donate.html">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <!-- bg-light-custom: Custom class (defined in styles.css) for light background -->
+    <!-- py-5: Bootstrap spacing utility - padding-y (top and bottom) = 3rem (48px) -->
+    <section class="bg-light-custom py-5">
+        <div class="container">
+            <!-- text-center: Bootstrap utility - text-align: center -->
+            <div class="text-center">
+                <!-- display-4: Bootstrap typography - extra large display heading -->
+                <!-- fw-bold: Bootstrap utility - font-weight: bold -->
+                <!-- mb-3: Bootstrap spacing utility - margin-bottom = 1rem (16px) -->
+                <h1 class="display-4 fw-bold mb-3">Get in Touch</h1>
+                <!-- lead: Bootstrap typography - makes paragraph slightly larger and lighter -->
+                <!-- text-muted-custom: Custom class (defined in styles.css) -->
+                <p class="lead text-muted-custom">
+                    We'd love to hear from you. Reach out with questions, program inquiries, or to get involved.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="py-5">
+        <div class="container">
+            <!-- row: Bootstrap - creates a flex row for columns -->
+            <!-- g-5: Bootstrap spacing - gap/gutter between columns = 3rem (48px) -->
+            <div class="row g-5">
+                
+                <!-- LEFT COLUMN: Contact Form -->
+                <!-- col-lg-7: On large screens, takes 7 out of 12 columns (58% width) -->
+                <!-- On smaller screens, automatically becomes full width (100%) -->
+                <div class="col-lg-7">
+                    <!-- card: Bootstrap - creates card container -->
+                    <!-- border-0: Bootstrap - removes default border -->
+                    <!-- shadow-sm: Bootstrap - adds small box-shadow -->
+                    <div class="card border-0 shadow-sm">
+                        <!-- card-body: Bootstrap - main content area with padding -->
+                        <!-- p-4: padding all sides = 1.5rem (24px) on mobile -->
+                        <!-- p-md-5: padding all sides = 3rem (48px) on medium+ screens -->
+                        <div class="card-body p-4 p-md-5">
+                            <!-- h3: Semantic h2, styled like h3 using Bootstrap's .h3 class -->
+                            <!-- mb-4: margin-bottom = 1.5rem -->
+                            <h2 class="h3 fw-bold mb-4">Send Us a Message</h2>
+
+                            <!-- BOOTSTRAP FORM -->
+                            <form action="mailto:skybennn@gmail.com" method="post" enctype="text/plain">
+                                
+                                <!-- FORM GROUP 1: Name Field -->
+                                <!-- mb-4: margin-bottom = 1.5rem (24px) -->
+                                <div class="mb-4">
+                                    <!-- form-label: Bootstrap - styles form labels -->
+                                    <label for="name" class="form-label fw-bold">Full Name *</label>
+                                    <!-- form-control: Bootstrap - styles input fields (border, padding, focus states) -->
+                                    <!-- form-control-lg: Bootstrap - larger input size -->
+                                    <input type="text" class="form-control form-control-lg" id="name" name="name" required placeholder="John Doe">
+                                </div>
+                                
+                                <!-- FORM GROUP 2: Email Field -->
+                                <div class="mb-4">
+                                    <label for="email" class="form-label fw-bold">Email Address *</label>
+                                    <input type="email" class="form-control form-control-lg" id="email" name="email" required placeholder="john@example.com">
+                                </div>
+
+                                <!-- FORM GROUP 3: Phone Field (Optional) -->
+                                <div class="mb-4">
+                                    <label for="phone" class="form-label fw-bold">Phone Number</label>
+                                    <input type="tel" class="form-control form-control-lg" id="phone" name="phone" placeholder="(555) 123-4567">
+                                </div>
+
+                                <!-- FORM GROUP 4: Subject Dropdown -->
+                                <div class="mb-4">
+                                    <label for="subject" class="form-label fw-bold">Subject *</label>
+                                    <!-- form-select: Bootstrap - styles select/dropdown fields -->
+                                    <!-- form-select-lg: Bootstrap - larger select size -->
+                                    <select class="form-select form-select-lg" id="subject" name="subject" required>
+                                        <option value="">Select a topic...</option>
+                                        <option value="Program Inquiry">Program Inquiry</option>
+                                        <option value="Volunteer">Volunteer Opportunity</option>
+                                        <option value="Donation">Donation Question</option>
+                                        <option value="Partnership">Partnership/Sponsorship</option>
+                                        <option value="General">General Question</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                
+                                <!-- FORM GROUP 5: Message Field -->
+                                <div class="mb-4">
+                                    <label for="message" class="form-label fw-bold">Message *</label>
+                                    <!-- form-control also works on textarea -->
+                                    <textarea class="form-control form-control-lg" id="message" name="message" rows="6" required placeholder="Tell us how we can help..."></textarea>
+                                </div>
+                                
+                                <!-- SUBMIT BUTTON -->
+                                <!-- btn-lg: Bootstrap - large button size -->
+                                <!-- w-100: Bootstrap utility - width: 100% (full width button) -->
+                                <button type="submit" class="btn btn-primary btn-lg w-100">
+                                    <!-- bi bi-send-fill: Bootstrap Icons - send/paper plane icon -->
+                                    <!-- me-2: margin-end (right) = 0.5rem -->
+                                    <i class="bi bi-send-fill me-2"></i>
+                                    Send Message
+                                </button>
+                                
+                                <!-- Helper Text -->
+                                <!-- small: Bootstrap - smaller text size -->
+                                <!-- text-muted: Bootstrap utility - uses muted/gray color -->
+                                <!-- mt-3: margin-top = 1rem -->
+                                <!-- mb-0: margin-bottom = 0 -->
+                                <p class="text-muted small mt-3 mb-0">
+                                    <!-- bi bi-info-circle: Bootstrap Icons - info icon -->
+                                    <!-- me-1: margin-end = 0.25rem -->
+                                    <i class="bi bi-info-circle me-1"></i>
+                                    This will open your email client. For a better experience, we'll be integrating a contact form service soon.
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- RIGHT COLUMN: Contact Info -->
+                <!-- col-lg-5: On large screens, takes 5 out of 12 columns (42% width) -->
+                <div class="col-lg-5">
+                    
+                    <!-- CONTACT INFORMATION SECTION -->
+                    <div class="mb-4">
+                        <h2 class="h3 fw-bold mb-4">Contact Information</h2>
+                        
+                        <!-- d-flex: Bootstrap utility - display: flex -->
+                        <!-- mb-4: margin-bottom = 1.5rem -->
+                        <div class="d-flex mb-4">
+                            <!-- me-3: margin-end (right) = 1rem -->
+                            <div class="me-3">
+                                <!-- bg-primary: Bootstrap - primary color background -->
+                                <!-- bg-opacity-10: Bootstrap - 10% opacity background -->
+                                <!-- rounded-circle: Bootstrap - border-radius: 50% (makes it a circle) -->
+                                <!-- p-3: Bootstrap spacing - padding all sides = 1rem -->
+                                <div class="bg-primary bg-opacity-10 rounded-circle p-3">
+                                    <!-- bi bi-envelope-fill: Bootstrap Icons - filled envelope icon -->
+                                    <i class="bi bi-envelope-fill text-primary" style="font-size: 1.5rem;"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <!-- h6: Styled like h6 heading -->
+                                <!-- mb-1: margin-bottom = 0.25rem -->
+                                <h3 class="h6 fw-bold mb-1">Email</h3>
+                                <!-- text-decoration-none: Removes underline from link -->
+                                <p class="mb-0">
+                                    <a href="mailto:skybennn@gmail.com" class="text-decoration-none">skybennn@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-4">
+                            <div class="me-3">
+                                <div class="bg-primary bg-opacity-10 rounded-circle p-3">
+                                    <!-- bi bi-geo-alt-fill: Bootstrap Icons - filled location pin icon -->
+                                    <i class="bi bi-geo-alt-fill text-primary" style="font-size: 1.5rem;"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="h6 fw-bold mb-1">Location</h3>
+                                <p class="mb-0">Hollywood, FL 33020</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-4">
+                            <div class="me-3">
+                                <div class="bg-primary bg-opacity-10 rounded-circle p-3">
+                                    <!-- bi bi-clock-fill: Bootstrap Icons - filled clock icon -->
+                                    <i class="bi bi-clock-fill text-primary" style="font-size: 1.5rem;"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="h6 fw-bold mb-1">Office Hours</h3>
+                                <p class="mb-0">Monday - Friday<br>9:00 AM - 5:00 PM EST</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SOCIAL MEDIA SECTION -->
+                    <div class="mb-4">
+                        <!-- h5: Styled like h5 heading -->
+                        <h3 class="h5 fw-bold mb-3">Follow Us</h3>
+                        <!-- gap-2: Bootstrap spacing - gap between flex items = 0.5rem -->
+                        <div class="d-flex gap-2">
+                            <!-- btn-outline-primary: Bootstrap - outlined button with primary color border -->
+                            <a href="#" class="btn btn-outline-primary btn-lg">
+                                <!-- bi bi-facebook: Bootstrap Icons - Facebook logo -->
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-lg">
+                                <!-- bi bi-twitter: Bootstrap Icons - Twitter logo -->
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-lg">
+                                <!-- bi bi-instagram: Bootstrap Icons - Instagram logo -->
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-lg">
+                                <!-- bi bi-linkedin: Bootstrap Icons - LinkedIn logo -->
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- QUICK LINKS CARD -->
+                    <div class="card border-0 bg-light-custom">
+                        <!-- p-4: padding all sides = 1.5rem -->
+                        <div class="card-body p-4">
+                            <h3 class="h5 fw-bold mb-3">Quick Links</h3>
+                            <!-- list-unstyled: Bootstrap - removes default bullet points and padding from list -->
+                            <ul class="list-unstyled mb-0">
+                                <!-- mb-2: margin-bottom = 0.5rem -->
+                                <li class="mb-2">
+                                    <a href="programs.html" class="text-decoration-none">
+                                        <!-- bi bi-arrow-right-circle: Bootstrap Icons - arrow in circle icon -->
+                                        <i class="bi bi-arrow-right-circle text-primary me-2"></i>
+                                        Apply to Programs
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="donate.html" class="text-decoration-none">
+                                        <i class="bi bi-arrow-right-circle text-primary me-2"></i>
+                                        Make a Donation
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="mailto:skybennn@gmail.com?subject=Volunteer%20Inquiry" class="text-decoration-none">
+                                        <i class="bi bi-arrow-right-circle text-primary me-2"></i>
+                                        Volunteer With Us
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="about.html" class="text-decoration-none">
+                                        <i class="bi bi-arrow-right-circle text-primary me-2"></i>
+                                        Learn About Our Mission
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <!-- py-4: padding-y (top and bottom) = 1.5rem -->
+    <footer class="py-4">
+        <div class="container">
+            <!-- align-items-center: vertically centers items -->
+            <div class="row align-items-center">
+                
+                <!-- LEFT SIDE: Copyright -->
+                <!-- col-md-6: 50% width on medium screens and up -->
+                <!-- text-center: center text on mobile -->
+                <!-- text-md-start: left-align text on medium screens and up -->
+                <!-- mb-3 mb-md-0: margin-bottom on mobile, no margin on medium+ -->
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">
+                        &copy; <span id="year"></span> Skybenn Foundation. Building stronger communities together.
+                    </p>
+                </div>
+                
+                <!-- RIGHT SIDE: Social Links -->
+                <!-- text-md-end: right-align text on medium screens and up -->
+                <div class="col-md-6 text-center text-md-end">
+                    <!-- text-white: Bootstrap utility - white text color -->
+                    <!-- me-3: margin-end (right) = 1rem between icons -->
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Vite Module Script: Loads JavaScript -->
+    <!-- type="module": Treats this as ES6 module -->
+    <!-- src="/src/main.js": Points to your main.js file which imports Bootstrap -->
+
+</body>
+</html>
