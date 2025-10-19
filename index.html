@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skybenn Foundation | Empowering Communities</title>
+    <meta name="description" content="Supporting communities through education, mentorship, and impactful programs.">
+    
+    <!-- Favicon: Small icon shown in browser tab -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+
+    <!-- NAVBAR SECTION -->
+    <!-- navbar: Bootstrap component for navigation bars -->
+    <!-- navbar-expand-lg: Navigation links collapse into hamburger menu on screens smaller than 'large' -->
+    <!-- navbar-light: Uses dark text/icons on light background -->
+    <!-- bg-white: Bootstrap utility - sets background color to white -->
+    <!-- sticky-top: Navbar stays visible at top when scrolling -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        
+        <!-- container: Bootstrap class that centers content and adds responsive padding -->
+        <div class="container">
+            
+            <!-- Logo and Brand Name -->
+            <!-- navbar-brand: Bootstrap class for branding (logo/company name) -->
+            <!-- fw-bold: Bootstrap utility - font-weight: bold -->
+            <!-- d-flex: Bootstrap utility - display: flex (flexbox layout) -->
+            <!-- align-items-center: Bootstrap utility - vertically centers flex items -->
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#" style="color: var(--primary);">
+                <!-- height="40": Sets logo height to 40px -->
+                <!-- me-2: Bootstrap spacing utility - margin-end (right) = 0.5rem (8px) -->
+                <img src="/favicon.png" alt="Skybenn Foundation Logo" height="40" class="me-2">
+                Skybenn Foundation
+            </a>
+            
+            <!-- Mobile Hamburger Menu Button -->
+            <!-- navbar-toggler: Bootstrap class for mobile menu toggle button -->
+            <!-- data-bs-toggle="collapse": Bootstrap JS - tells it to toggle collapse on click -->
+            <!-- data-bs-target="#navbarNav": Bootstrap JS - targets element with id="navbarNav" -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <!-- navbar-toggler-icon: Bootstrap - creates the hamburger icon (three lines) -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <!-- collapse: Bootstrap - hides content by default on mobile -->
+            <!-- navbar-collapse: Bootstrap - special collapse behavior for navbars -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- navbar-nav: Bootstrap - flex container for nav items -->
+                <!-- ms-auto: Bootstrap spacing utility - margin-start (left) = auto (pushes items to right) -->
+                <!-- align-items-center: Bootstrap utility - vertically centers items -->
+                <ul class="navbar-nav ms-auto align-items-center">
+                    
+                    <!-- nav-item: Bootstrap - wrapper for each navigation link -->
+                    <li class="nav-item">
+                        <!-- nav-link: Bootstrap - styles links in navbar (padding, hover effects) -->
+                        <a class="nav-link" href="#mission">Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#programs">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#impact">Impact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    
+                    <!-- ms-lg-3: Bootstrap spacing - margin-start = 1rem (16px) on large screens and up -->
+                    <li class="nav-item ms-lg-3">
+                        <!-- btn: Bootstrap - base button styles -->
+                        <!-- btn-primary: Bootstrap - primary color button (uses --primary color) -->
+                        <!-- btn-sm: Bootstrap - small button size -->
+                        <a class="btn btn-primary btn-sm" href="#contact">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <!-- py-5: Bootstrap spacing utility - padding-y (top and bottom) = 3rem (48px) -->
+    <section id="hero" class="py-5">
+        <!-- container: Centers content and adds responsive padding -->
+        <div class="container">
+            
+            <!-- BOOTSTRAP GRID SYSTEM -->
+            <!-- row: Bootstrap - creates a flex row for columns -->
+            <!-- align-items-center: Bootstrap utility - vertically centers all columns -->
+            <!-- g-5: Bootstrap spacing - gap/gutter between columns = 3rem (48px) -->
+            <div class="row align-items-center g-5">
+                
+                <!-- COLUMN 1: Text Content -->
+                <!-- col-lg-6: Bootstrap - on 'large' screens and up, take 6 out of 12 columns (50% width) -->
+                <!-- On smaller screens, automatically becomes full width (100%) -->
+                <div class="col-lg-6">
+                    
+                    <!-- display-5: Bootstrap typography - large display heading -->
+                    <!-- fw-bold: Bootstrap utility - font-weight: bold -->
+                    <!-- mb-4: Bootstrap spacing utility - margin-bottom = 1.5rem (24px) -->
+                    <h1 class="display-5 fw-bold mb-4">
+                        Empowering Communities Through Education
+                    </h1>
+                    
+                    <!-- lead: Bootstrap typography - makes paragraph slightly larger and lighter -->
+                    <!-- text-muted-custom: Custom class (defined in styles.css) -->
+                    <p class="lead text-muted-custom mb-4">
+                        We provide accessible programs that create lasting change through mentorship, skill-building, and community support.
+                    </p>
+                    
+                    <!-- d-flex: Bootstrap utility - display: flex -->
+                    <!-- gap-3: Bootstrap spacing - gap between flex items = 1rem (16px) -->
+                    <!-- flex-wrap: Bootstrap utility - allows items to wrap to next line on small screens -->
+                    <div class="d-flex gap-3 flex-wrap">
+                        <!-- btn-lg: Bootstrap - large button size -->
+                        <a href="#programs" class="btn btn-primary btn-lg">Explore Programs</a>
+                        
+                        <!-- btn-outline-primary: Bootstrap - outlined button with primary color border -->
+                        <a href="#mission" class="btn btn-outline-primary btn-lg">Our Mission</a>
+                    </div>
+                </div>
+                
+                <!-- COLUMN 2: Image -->
+                <!-- col-lg-6: 50% width on large screens, 100% on mobile -->
+                <div class="col-lg-6">
+                    <!-- img-fluid: Bootstrap - makes image responsive (max-width: 100%, height: auto) -->
+                    <!-- rounded: Bootstrap utility - adds border-radius for rounded corners -->
+                    <!-- shadow: Bootstrap utility - adds box-shadow for depth -->
+                    <img src="/clw.jpg" alt="Community event" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MISSION SECTION -->
+    <!-- bg-light-custom: Custom class (defined in styles.css) for light background -->
+    <section id="mission" class="bg-light-custom">
+        <div class="container">
+            <!-- g-5: gutter/gap = 3rem between columns -->
+            <div class="row g-5 align-items-center">
+                
+                <!-- Text Column -->
+                <div class="col-lg-6">
+                    <!-- h1: Semantic h2, but styled like h1 using Bootstrap's .h1 class -->
+                    <h2 class="h1 fw-bold mb-4">Our Mission</h2>
+                    
+                    <p class="mb-4">
+                        We believe every person deserves access to quality education and mentorship. Our mission is to break down barriers and create pathways to success through community-centered programs that foster growth, resilience, and opportunity.
+                    </p>
+                    
+                    <!-- list-unstyled: Bootstrap - removes default bullet points and padding from list -->
+                    <ul class="list-unstyled">
+                        <!-- mb-2: margin-bottom = 0.5rem (8px) -->
+                        <li class="mb-2">
+                            <!-- bi bi-check-circle-fill: Bootstrap Icons - filled checkmark circle -->
+                            <!-- text-primary: Bootstrap utility - uses primary color for text -->
+                            <!-- me-2: margin-end (right) = 0.5rem -->
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            <strong>Accessible Education:</strong> Free programs for all
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            <strong>Expert Mentorship:</strong> Industry professionals
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            <strong>Community First:</strong> Designed with our neighbors
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            <strong>Lasting Impact:</strong> Skills that transform lives
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Image Column -->
+                <div class="col-lg-6">
+                    <img src="/mission.png" alt="Our mission in action" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROGRAMS SECTION -->
+    <section id="programs">
+        <div class="container">
+            
+            <!-- Section Header -->
+            <!-- text-center: Bootstrap utility - text-align: center -->
+            <!-- mb-5: margin-bottom = 3rem (48px) -->
+            <div class="text-center mb-5">
+                <h2 class="h1 fw-bold mb-3">Our Programs</h2>
+                <p class="lead text-muted-custom">
+                    Designed to meet you where you are and help you reach where you want to be
+                </p>
+            </div>
+            
+            <!-- BOOTSTRAP GRID FOR CARDS -->
+            <!-- g-4: gutter/gap = 1.5rem (24px) between columns -->
+            <div class="row g-4">
+                
+                <!-- PROGRAM CARD 1 -->
+                <!-- col-md-6: On medium screens, take 6/12 columns (50% width) - 2 cards per row -->
+                <!-- col-lg-4: On large screens, take 4/12 columns (33% width) - 3 cards per row -->
+                <!-- On small screens, automatically 100% width (stacked) -->
+                <div class="col-md-6 col-lg-4">
+                    
+                    <!-- BOOTSTRAP CARD COMPONENT -->
+                    <!-- card: Bootstrap - creates card container with border and padding -->
+                    <!-- h-100: Bootstrap utility - height: 100% (makes all cards same height) -->
+                    <!-- shadow-sm: Bootstrap utility - small box-shadow -->
+                    <!-- border-0: Bootstrap utility - removes default border -->
+                    <div class="card h-100 shadow-sm border-0">
+                        
+                        <!-- card-body: Bootstrap - main content area of card with padding -->
+                        <!-- d-flex flex-column: Makes content flexbox vertical layout -->
+                        <div class="card-body d-flex flex-column">
+                            
+                            <!-- Icon -->
+                            <!-- mb-3: margin-bottom = 1rem (16px) -->
+                            <div class="mb-3">
+                                <!-- bi bi-book: Bootstrap Icons - book icon -->
+                                <i class="bi bi-book text-primary" style="font-size: 2.5rem;"></i>
+                            </div>
+                            
+                            <!-- Card Title -->
+                            <!-- h5: Semantic h3, styled like h5 -->
+                            <!-- card-title: Bootstrap - specific styling for card titles -->
+                            <h3 class="h5 card-title mb-3">Youth Tech Academy</h3>
+                            
+                            <!-- Card Description -->
+                            <!-- card-text: Bootstrap - specific styling for card text content -->
+                            <p class="card-text mb-3">
+                                A 12-week coding bootcamp for young people ages 13-18. Students learn web development, problem-solving, and teamwork.
+                            </p>
+                            
+                            <!-- Badge (pushed to bottom of card) -->
+                            <!-- mt-auto: Bootstrap spacing - margin-top: auto (pushes to bottom in flex container) -->
+                            <div class="mt-auto">
+                                <!-- badge: Bootstrap - small pill-shaped label -->
+                                <!-- badge-accent: Custom class (defined in styles.css) -->
+                                <span class="badge badge-accent">Monthly Cohorts</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- PROGRAM CARD 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-3">
+                                <!-- bi bi-lightbulb: Bootstrap Icons - lightbulb icon -->
+                                <i class="bi bi-lightbulb text-primary" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <h3 class="h5 card-title mb-3">Career Mentorship</h3>
+                            <p class="card-text mb-3">
+                                One-on-one mentorship connecting community members with professionals. Includes resume reviews and interview prep.
+                            </p>
+                            <div class="mt-auto">
+                                <span class="badge badge-accent">Ongoing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- PROGRAM CARD 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-3">
+                                <!-- bi bi-briefcase: Bootstrap Icons - briefcase icon -->
+                                <i class="bi bi-briefcase text-primary" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <h3 class="h5 card-title mb-3">Small Business Workshops</h3>
+                            <p class="card-text mb-3">
+                                Free workshops covering business planning, financial literacy, marketing, and legal basics for entrepreneurs.
+                            </p>
+                            <div class="mt-auto">
+                                <span class="badge badge-accent">Bi-Monthly</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMPACT SECTION -->
+    <section id="impact" class="bg-light-custom">
+        <div class="container">
+            
+            <div class="text-center mb-5">
+                <h2 class="h1 fw-bold mb-3">Our Impact</h2>
+                <p class="lead text-muted-custom">
+                    Making a difference, one person at a time
+                </p>
+            </div>
+            
+            <!-- STATS GRID -->
+            <div class="row g-4">
+                
+                <!-- STAT BOX 1 -->
+                <!-- col-md-6: On medium screens, 50% width (2 per row) -->
+                <!-- col-lg-3: On large screens, 25% width (4 per row) -->
+                <!-- On mobile, 100% width (stacked) -->
+                <div class="col-md-6 col-lg-3">
+                    <!-- stat-box: Custom class (defined in styles.css) -->
+                    <div class="stat-box">
+                        <!-- stat-number: Custom class for big numbers -->
+                        <!-- data-target="500": Custom attribute - JavaScript uses this for counter animation -->
+                        <div class="stat-number" data-target="500">0</div>
+                        <!-- stat-label: Custom class for stat description -->
+                        <div class="stat-label">People Served</div>
+                    </div>
+                </div>
+                
+                <!-- STAT BOX 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="48">0</div>
+                        <div class="stat-label">Workshops Held</div>
+                    </div>
+                </div>
+                
+                <!-- STAT BOX 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Community Partners</div>
+                    </div>
+                </div>
+                
+                <!-- STAT BOX 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-box">
+                        <!-- This stat doesn't animate (no data-target) -->
+                        <div class="stat-number">95<span style="font-size: 2rem;">%</span></div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <div class="container">
+            <!-- g-5: gap = 3rem between columns -->
+            <div class="row g-5">
+                
+                <!-- LEFT COLUMN: Contact Info -->
+                <div class="col-lg-6">
+                    <h2 class="h1 fw-bold mb-4">Get Involved</h2>
+                    <p class="lead mb-4">
+                        Whether you want to participate, volunteer, or support our mission, we'd love to hear from you.
+                    </p>
+                    
+                    <div class="mb-4">
+                        <!-- h5: Styled like h5 heading -->
+                        <h3 class="h5 mb-3">Contact Information</h3>
+                        
+                        <!-- bi bi-envelope: Bootstrap Icons - envelope/email icon -->
+                        <p class="mb-2">
+                            <i class="bi bi-envelope me-2 text-primary"></i>
+                            <strong>Email:</strong> <a href="mailto:skybennn@gmail.com">skybennn@gmail.com</a>
+                        </p>
+                        
+                        <!-- bi bi-geo-alt: Bootstrap Icons - location pin icon -->
+                        <p class="mb-2">
+                            <i class="bi bi-geo-alt me-2 text-primary"></i>
+                            <strong>Location:</strong> Hollywood, FL 33020
+                        </p>
+                        
+                        <!-- bi bi-clock: Bootstrap Icons - clock icon -->
+                        <p class="mb-2">
+                            <i class="bi bi-clock me-2 text-primary"></i>
+                            <strong>Hours:</strong> Mon-Fri, 9am-5pm
+                        </p>
+                    </div>
+                    
+                    <!-- DONATION CALL-TO-ACTION BOX -->
+                    <!-- p-4: Bootstrap spacing - padding all sides = 1.5rem (24px) -->
+                    <!-- rounded: Bootstrap utility - adds border-radius (rounded corners) -->
+                    <div class="p-4 bg-light-custom rounded">
+                        <h3 class="h5 mb-3">Support Our Mission</h3>
+                        <p class="mb-3">
+                            Your donation helps us provide free programs to those who need them most.
+                        </p>
+                        <a href="mailto:skybennn@gmail.com?subject=Donation%20Inquiry" class="btn btn-primary">
+                            Make a Donation
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- RIGHT COLUMN: Contact Form -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <!-- h4: Styled like h4 heading -->
+                            <h3 class="h4 mb-4">Send Us a Message</h3>
+
+                            <!-- BOOTSTRAP FORM -->
+                            <form action="mailto:skybennn@gmail.com" method="post" enctype="text/plain">
+                                
+                                <!-- FORM GROUP 1: Name -->
+                                <!-- mb-3: margin-bottom = 1rem -->
+                                <div class="mb-3">
+                                    <!-- form-label: Bootstrap - styles form labels -->
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <!-- form-control: Bootstrap - styles input fields (border, padding, focus states) -->
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                
+                                <!-- FORM GROUP 2: Email -->
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                
+                                <!-- FORM GROUP 3: Message -->
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <!-- form-control also works on textarea -->
+                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                
+                                <!-- SUBMIT BUTTON -->
+                                <!-- w-100: Bootstrap utility - width: 100% (full width button) -->
+                                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                                
+                                <!-- Helper Text -->
+                                <!-- text-muted: Bootstrap utility - uses muted/gray color -->
+                                <!-- d-block: Bootstrap utility - display: block -->
+                                <!-- mt-2: margin-top = 0.5rem -->
+                                <small class="text-muted d-block mt-2">
+                                    This will open your email client. We'll integrate a better form service soon.
+                                </small>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <!-- py-4: padding-y (top and bottom) = 1.5rem -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                
+                <!-- LEFT SIDE: Copyright -->
+                <!-- col-md-6: 50% width on medium screens and up -->
+                <!-- text-center: center text on mobile -->
+                <!-- text-md-start: left-align text on medium screens and up -->
+                <!-- mb-3 mb-md-0: margin-bottom on mobile, no margin on medium+ -->
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <!-- mb-0: margin-bottom = 0 -->
+                    <p class="mb-0">
+                        &copy; <span id="year"></span> Skybenn Foundation. Building stronger communities together.
+                    </p>
+                </div>
+                
+                <!-- RIGHT SIDE: Social Links -->
+                <!-- text-md-end: right-align text on medium screens and up -->
+                <div class="col-md-6 text-center text-md-end">
+                    <!-- text-white: Bootstrap utility - white text color -->
+                    <!-- me-3: margin-end (right) = 1rem between icons -->
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Vite Module Script: Loads JavaScript -->
+    <!-- type="module": Treats this as ES6 module -->
+    <!-- src="/src/main.js": Points to your main.js file which imports Bootstrap -->
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>

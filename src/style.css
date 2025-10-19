@@ -1,0 +1,112 @@
+/* Sky Blue Color Palette */
+:root {
+    --primary: #2563EB;
+    --dark-ink: #0F172A;
+    --light-bg: #F8FAFC;
+    --accent: #22C55E;
+    --muted: #64748B;
+}
+
+/* Base Styles */
+body {
+    color: var(--dark-ink);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--dark-ink);
+}
+
+/* Button Customization */
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+
+/* Custom Utility Classes */
+.bg-light-custom {
+    background-color: var(--light-bg);
+}
+
+.text-muted-custom {
+    color: var(--muted);
+}
+
+.badge-accent {
+    background-color: var(--accent);
+}
+
+/* Hero Section - Video/Image Placeholder */
+.hero-media {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 300px;
+    border-radius: 12px;
+}
+
+/* Impact Section - Stat Boxes */
+.stat-box {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Smooth Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Section Spacing */
+section {
+    padding: 5rem 0;
+}
+
+/* Navbar Customization */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--dark-ink);
+    color: #fff;
+}
+
+/* Footer Links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
