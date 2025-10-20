@@ -47,7 +47,7 @@ The Skybenn Foundation website was built to:
 
 The site is hosted live on **GitHub Pages**:
 
-👉 [https://o0s1.github.io/skybenn-foundation/](https://o0s1.github.io/skybenn-foundation/)
+👉 [https://o0s1.github.io/skybenn-foundation/](https://oos1.github.io/skybenn-foundation/)
 
 ---
 
